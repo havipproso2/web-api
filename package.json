@@ -1,0 +1,41 @@
+{
+  "name": "web-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon --exec babel-node -- src/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/havipproso2/web-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/havipproso2/web-api/issues"
+  },
+  "homepage": "https://github.com/havipproso2/web-api#readme",
+  "dependencies": {
+    "babel-eslint": "^8.2.5",
+    "babel-preset-env": "^1.7.0",
+    "bcrypt": "^2.0.1",
+    "body-parser": "^1.18.3",
+    "dotenv": "^6.0.0",
+    "eslint": "^5.0.1",
+    "eslint-config-airbnb": "^17.0.0",
+    "eslint-config-prettier": "^2.9.0",
+    "eslint-plugin-import": "^2.13.0",
+    "eslint-plugin-jsx-a11y": "^6.1.0",
+    "eslint-plugin-prettier": "^2.6.1",
+    "eslint-plugin-react": "^7.10.0",
+    "express": "^4.16.3",
+    "jsonwebtoken": "^8.3.0",
+    "lodash": "^4.17.10",
+    "mongoose": "^5.2.1",
+    "mongoose-unique-validator": "^2.0.1",
+    "nodemon": "^1.17.5",
+    "prettier": "^1.13.7"
+  }
+}
