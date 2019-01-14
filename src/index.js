@@ -3,6 +3,7 @@ import path from 'path';
 import mongoose from 'mongoose';
 import bodyParser from 'body-parser';
 import dotenv from 'dotenv';
+import cors from 'cors';
 
 import auth from './routes/auth';
 import register from './routes/register/register';
@@ -10,6 +11,7 @@ import register from './routes/register/register';
 dotenv.config();
 const app = express();
 app.use(bodyParser.json());
+app.use(cors());
 
 mongoose.set('useNewUrlParser', true);
 mongoose.set('useFindAndModify', false);
